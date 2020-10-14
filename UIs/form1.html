@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <br>
+<h2 style="margin-left: 43%;">DC BASIC INFO</h2>
+<br>
+<div class="bg-white shadow rounded-lg p-2">
+    <div class="grid lg:grid-cols-4 gap-6">
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="DC#" class="bg-white text-gray-900 px-1">DC# *</label>
+          </p>
+        </div>
+        <p>
+          <input id="DC#" autocomplete="false" tabindex="0" type="text" class="py-1 px-1 text-gray-900 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="DCname" class="bg-white text-gray-900 px-1">DC name *</label>
+          </p>
+        </div>
+        <p>
+          <input id="DCname" autocomplete="false" tabindex="0" type="text" class="py-1 px-1 text-gray-900 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="DCADDRESS" class="bg-white text-gray-900 px-1">DC Address *</label>
+          </p>
+        </div>
+        <p>
+          <input id="DCADDRESS" autocomplete="false" tabindex="0" type="text" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="DCcity" class="bg-white text-gray-900 px-1">DC City *</label>
+          </p>
+        </div>
+        <p>
+          <input id="DCcity" autocomplete="false" tabindex="0" type="text" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="DCstate" class="bg-white text-gray-900 px-1">DC state *</label>
+          </p>
+        </div>
+        <p>
+          <input id="State" autocomplete="false" tabindex="0" type="text" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="DCcode" class="bg-white text-gray-900 px-1">DC code *</label>
+          </p>
+        </div>
+        <p>
+          <input id="code" autocomplete="false" tabindex="0" type="text" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="DCcountry" class="bg-white text-gray-900 px-1">DC country *</label>
+          </p>
+        </div>
+        <p>
+          <input id="country" autocomplete="false" tabindex="0" type="text" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="username" class="bg-white text-gray-900 px-1">Phone *</label>
+          </p>
+        </div>
+        <p>
+          <input id="Phone" autocomplete="false" tabindex="0" type="tel" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="password" class="bg-white text-gray-900 px-1">Email *</label>
+          </p>
+        </div>
+        <p>
+          <input id="email" autocomplete="false" tabindex="0" type="email" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+    </div>
+ <br>
+<!-- ADMIN component -->
+<h2 style="margin-left: 38%;">AMARR DISTRICT MANAGER</h2>
+<br>
+<div class="bg-white shadow rounded-lg p-2">
+    <div class="grid lg:grid-cols-4 gap-6">
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="name" class="bg-white text-gray-900 px-1">First name *</label>
+          </p>
+        </div>
+        <p>
+          <input id="name" autocomplete="false" tabindex="0" type="text" class="py-1 px-1 text-gray-900 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="lastname" class="bg-white text-gray-900 px-1">Last name *</label>
+          </p>
+        </div>
+        <p>
+          <input id="lastname" autocomplete="false" tabindex="0" type="text" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="username" class="bg-white text-gray-900 px-1">Phone *</label>
+          </p>
+        </div>
+        <p>
+          <input id="Phone" autocomplete="false" tabindex="0" type="tel" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="password" class="bg-white text-gray-900 px-1">Email *</label>
+          </p>
+        </div>
+        <p>
+          <input id="email" autocomplete="false" tabindex="0" type="email" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+    </div>
+    <br>
+    <br>
+<!-- SR MANAGER component -->
+<h2 style="margin-left: 43%;">SALES MANAGER</h2>
+<br>
+<div class="bg-white shadow  p-2">
+    <div class="grid lg:grid-cols-4 gap-6">
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="name" class="bg-white text-gray-900 px-1">First name *</label>
+          </p>
+        </div>
+        <p>
+          <input id="name" autocomplete="false" tabindex="0" type="text" class="py-1 px-1 text-gray-900 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="lastname" class="bg-white text-gray-900 px-1">Last name *</label>
+          </p>
+        </div>
+        <p>
+          <input id="lastname" autocomplete="false" tabindex="0" type="text" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="username" class="bg-white text-gray-900 px-1">Phone *</label>
+          </p>
+        </div>
+        <p>
+          <input id="Phone" autocomplete="false" tabindex="0" type="tel" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+      <div class="border focus-within:border-blue-500 focus-within:text-blue-500 transition-all duration-500 relative rounded p-1">
+        <div class="-mt-4 absolute tracking-wider px-1 uppercase text-xs">
+          <p>
+            <label for="password" class="bg-white text-gray-600 px-1">Email *</label>
+          </p>
+        </div>
+        <p>
+          <input id="email" autocomplete="false" tabindex="0" type="email" class="py-1 px-1 outline-none block h-full w-full">
+        </p>
+      </div>
+    </div>
+  
+    <div style="margin-left: 48%;" class="mt-6 pt-3">
+      <button class="rounded text-gray-100 px-3 py-1 bg-blue-500 hover:shadow-inner hover:bg-blue-700 transition-all duration-300">
+        Save
+      </button>
+    </div>
+  </div>
+
+
+
+
+
+    
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <div class="row">
+      <div class="col-lg-12 text-center m-4">
+         <h2> DATA FROM DB</h2>
+      </div>
+      
+      {% for d in dcbasicinfolist %}
+      
+      <div class="col-sm-6 mb-3" >
+         <div class="card" style="float:left;margin-right: 3%;">
+            <div class="card-body">
+               <h5 class="card-title bg bg-light text-dark p-1">DC NUMBER : {{d["Dc_number"]}}</h5>
+               <table class="mb-4">
+                  <tr><td>DC NAME : </td><td>{{d["Dc_name"]}}</td></tr>
+                  <tr><td>DC ADDRESS : </td><td>{{d["Dc_address"]}}</td></tr>
+                  <tr><td>DC CITY : </td><td>{{d["Dc_city"]}}</td></tr>
+                  <tr><td>DC STATE : </td><td>{{d["Dc_state"]}}</td></tr>
+                  <tr><td>DC ZIP : </td><td>{{d["Dc_zip"]}}</td></tr>
+                  <tr><td>DC COUNTRY : </td><td>{{d["Dc_country"]}}</td></tr>
+                  <tr><td>DC PHONE : </td><td>{{d["Dc_phone"]}}</td></tr>
+                  <tr><td>DC EMAIL : </td><td>{{d["Dc_email"]}}</td></tr>
+                  <tr><td>AMARR DISTMANAGER FIRST NAME : </td><td>{{d["AmarrDistMgrFirstname"]}}</td></tr>
+                  <tr><td>AMARR DISTMANAGER LAST NAME : </td><td>{{d["AmarrDistMgrLastname"]}}</td></tr>
+                  <tr><td>AMARR DISTMANAGER PHONE-NUMBER: </td><td>{{d["AmarrDistMgrPhone"]}}</td></tr>
+                  <tr><td>AMARR DISTMANAGER EMAIL-ID : </td><td>{{d["AmarrDistMgrEmail"]}}</td></tr>
+                  <tr><td>SALES MANAGER FIRST NAME : </td><td>{{d["SmFirstname"]}}</td></tr>
+                  <tr><td>SALES MANAGER LAST NAME : </td><td>{{d["SmLastname"]}}</td></tr>
+                  <tr><td>SALES MANAGER PHONE-NUMBER : </td><td>{{d["SmPhone"]}}</td></tr>
+                  <tr><td>SALES MANAGER EMAIL-ID : </td><td>{{d["SmEmail"]}}</td></tr>
+                  
+               </table>
+               <div class="row">
+                  <form method="POST" action="edit/{{d['_id']}}" class="col-lg-3 col-md-3">
+                     <div class="form-group">
+                        <button type="submit" class="btn btn-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Update</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      {% endfor %}
+   
+   </div>
+
+<!-- 
+<div class="overflow-hidden shadow-lg border-t-4 bg-white mb-4 rounded-b-lg rounded-t border-red-light w-full md:w-1/4">
+    <div class="px-6 py-4 mb-2 mt-4 mb-8">
+        <div class="uppercase tracking-wide text-c2 mb-6">DC BASIC INFO</div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-b-0 " >
+           
+            <div class="pl-2">DC# :<label>5678</label></div>
+        </div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-b-0">
+            
+            <div class="pl-2">DC NAME</div>
+        </div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest">
+           
+            <div class="pl-2">DC ADDRESS</div>
+        </div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-b-0" >
+           
+            <div class="pl-2">DC CITY</div>
+        </div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-b-0" >
+           
+            <div class="pl-2">DC STATE</div>
+        </div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-b-0" >
+           
+            <div class="pl-2">DC COUNTRY</div>
+        </div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-b-0" >
+           
+            <div class="pl-2">DC CODE</div>
+        </div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-b-0" >
+           
+            <div class="pl-2">DC PHONE</div>
+        </div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest border-b-0 w-150 h=60" >
+           
+            <div class="pl-2 box-content">EMAIL:<label>268spakr@gamil.com.yahoo.com</label></div>
+        </div>
+        <div class="uppercase tracking-wide text-c2 mb-4 mt-8">AMARR DISTRICT MANAGER</div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest">
+            
+            <div class="pl-2">FIRST NAME</div>
+        </div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest">
+            
+            <div class="pl-2">LAST NAME</div>
+        </div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest">
+            
+            <div class="pl-2">MOBILE NUMBER</div>
+        </div>
+        <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest">
+            
+            <div class="pl-2">EMAIL</div>
+        </div>
+        <div>
+            <div class="uppercase tracking-wide text-c2 mb-4 mt-8">SALES MANAGER</div>
+            <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest">
+                
+                <div class="pl-2">FIRST NAME</div>
+            </div>
+            <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest">
+                
+                <div class="pl-2">LAST NAME</div>
+            </div>
+            <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest">
+                
+                <div class="pl-2">MOBILE NUMBER</div>
+            </div>
+            <div class="flex cursor-pointer border px-4 py-2 text-lg text-grey-darkest">
+                
+                <div class="pl-2">EMAIL</div>
+            </div>
+
+        </div>
+
+
+</body>
+</html>
